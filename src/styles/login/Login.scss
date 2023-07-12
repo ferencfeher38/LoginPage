@@ -1,0 +1,40 @@
+.login-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-wrapper {
+  justify-self: center;
+  padding: 50px;
+}
+
+.login-wallpaper {
+  background-image: url("images/syncee-wallpaper.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 2;
+}
+
+@media only screen and (max-width: 780px) {
+  .login-wrapper {
+    padding: 40px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .login-wrapper {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .login-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

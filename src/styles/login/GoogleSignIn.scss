@@ -1,0 +1,45 @@
+button {
+  font-size: 0.75rem;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  width: 100%;
+  border: 1px solid rgb(211, 211, 211);
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+button:hover {
+  background-color: rgb(211, 211, 211);
+}
+
+button img {
+  max-width: 16px;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 780px) {
+  button {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  button {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  button {
+    font-size: 0.65rem;
+  }
+}

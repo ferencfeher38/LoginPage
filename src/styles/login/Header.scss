@@ -1,0 +1,33 @@
+.title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-weight: bolder;
+  font-size: 0.65rem;
+  color: rgb(80, 80, 80);
+  margin-bottom: 30px;
+}
+
+.logo {
+  height: auto;
+  width: 100%;
+  max-width: 96px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 300px) {
+  .title {
+    font-size: 1.15rem;
+  }
+
+  .text {
+    font-size: 0.55rem;
+  }
+
+  .logo {
+    max-width: 64px;
+  }
+}
